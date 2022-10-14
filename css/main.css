@@ -30,6 +30,19 @@ header {
   align-items: center;
 }
 
+
+section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 1em;
+  width: 100%;
+}
+
 header nav ul {
   list-style-type: none;
   display: flex;
@@ -50,6 +63,7 @@ header nav ul li a:focus {
 
 footer {
   text-align: center;
+  background-image: url(https://img.freepik.com/premium-vector/floral-pattern-wallpaper-baroque-damask-seamless-vector-background-brown-white-ornament_1419-267.jpg);
 }
 
 
