@@ -12,6 +12,7 @@ html {
 
 body {
   margin: 0;
+  background-color: #E0DACF;
   /* include your font family and default line-height */
 }
 
@@ -28,19 +29,39 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-image: url(https://img.freepik.com/premium-vector/floral-pattern-wallpaper-baroque-damask-seamless-vector-background-brown-white-ornament_1419-267.jpg);
+
 }
 
-
-section{
+section {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+article {
+  display: flex;
+}
+
+.browsed {
+  display: flex;
+  max-width: 90em; 
+  min-height: 100%;
 }
 
 .intro {
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
+  display: flex;
   gap: 1em;
   width: 100%;
+  padding-top: 1em;
+}
+
+.image {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  width: 30em;
+  height: 30em;
 }
 
 header nav ul {
